@@ -1,0 +1,73 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    /* Set the background color */
+    background: linear-gradient(to right, rgb(255, 94, 0), purple 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight:600;
+}
+
+label {
+    color: #4a38c7;
+}
+
+/* input {
+    border: none;
+    border-bottom: 3px solid #4a38c7;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+ */
+
+
+.form-control {
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #4a38c7;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   border-radius: 0;
+ }
+ 
+.form-control:focus {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+
+button {
+    background: linear-gradient(to right, purple 0%, #284daa 100%);
+    border-radius: 0%;
+    color: white;
+    border: none;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.tarjeta {
+    height: 25rem;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.perfil {
+    background: linear-gradient(to right, #f35248 0%, #5a45c6 100%);
+}
+
+h5 {
+    padding: 0.25rem;
+    border-bottom: 2px solid lightgray;
+}
